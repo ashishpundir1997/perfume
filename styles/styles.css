@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:hsl(30, 38%, 92%);
+}
+
+body {
+   width: 1440px;
+
+}
+
+.page{
+    display: flex;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+   
+    border-radius: 10px;
+    height: 380px;
+    
+}
+
+.perfume_img{
+    width: 250px;
+  
+    
+}
+
+.head {
+    letter-spacing: 5px;
+    font-size: 12px;
+    
+}
+
+.Para {
+    font-size: 20px;
+
+}
+
+
+
+.right{
+    width: 250px;
+    
+    padding: 30px 20px;
+    background-color: white;
+}
+
+p{
+    background-color: white;
+    margin-bottom: 20px;
+    color: hsl(228, 12%, 48%);
+   
+}
+
+h2{
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+h3{
+    background-color: white;
+    font-size: 20px;
+    color: hsl(158, 36%, 37%);
+}
+
+button{
+    background-color: white;
+}
+
+.price {
+   display: flex;
+   background-color: white;
+   column-gap: 20px;
+  
+
+
+}
+
+del {
+    background-color: white;
+    font-size: 10px;
+    padding-top: 5px;
+}
+button {
+    margin: 20px 50px 0px 20px;
+    width: 180px;
+    height: 30px;
+    background-color:hsl(212, 21%, 14%);
+    border-radius: 6px;
+    color: white;
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+    color: white;
+    background-color:hsl(212, 21%, 14%);
+    margin-right: 5px;
+}
